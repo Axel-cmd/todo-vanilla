@@ -1,0 +1,95 @@
+/* 
+
+THEME : 
+
+couleur forte (rose) : #FF7675
+couleur du fond : #dfe6e9
+*/
+
+body {
+    background: #dfe6e9;
+}
+
+header {
+    margin: 0;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-todo-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #bcbcbc;
+    background-color: unset;
+    padding: 2px;
+    margin-bottom: 4%;
+}
+
+.add-todo-input{
+    width: 80%;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.add-todo-button {
+    width: auto;
+    border: none;
+    background: none;
+    color: #FF7675;
+    text-align: end;
+}
+
+.add-todo-button:hover {
+    cursor: pointer;
+}
+
+.todo-list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-element {
+    width: 80%;
+    background-color: white;
+    border: 2px solid #bcbcbc;
+    border-radius: 3px;
+    padding: 2px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.todo-check {
+    width: auto;
+}
+
+.todo-check:checked {
+    accent-color: #FF7675;
+}
+
+.todo-element .todo-label {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
